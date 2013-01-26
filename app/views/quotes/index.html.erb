@@ -5,7 +5,10 @@
   </div>
 </div>
 
-<script>
-  var $marginTop = ($(window).height()  / 4 + 'px');     
-  $('#quote').css({'margin-top': $marginTop});
+<script>  
+    var $marginTop = ($(window).height() / 4 + 'px');   
+    if($(window).height() > 625){   
+        $('body').css({'margin-top': $marginTop});   
+    }
+
 </script>
