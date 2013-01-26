@@ -1,5 +1,5 @@
 Quotes::Application.routes.draw do
-  match '/' => 'quotes#index'
+  get "quotes/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
