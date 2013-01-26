@@ -1,4 +1,6 @@
 Quotes::Application.routes.draw do
+  get "static/index"
+
   get "quotes/index"
 
   # The priority is based upon order of creation:
