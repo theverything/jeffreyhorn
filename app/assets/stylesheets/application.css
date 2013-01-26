@@ -12,5 +12,3 @@
  *= require foundation_and_overrides
  *= require_tree .
  */
-
-#main {margin-top: 100px;}
