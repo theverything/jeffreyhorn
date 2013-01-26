@@ -1,5 +1,5 @@
 class QuotesController < ApplicationController
   def index
-    @quote = Quote.find(rand(1..11))
+    @quote = Quote.find(1)
   end
 end
