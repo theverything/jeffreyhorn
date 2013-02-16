@@ -23,3 +23,4 @@ rerun.txt
 pickle-email-*.html
 .project
 .DS_Store
+.powrc
