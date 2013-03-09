@@ -7,13 +7,8 @@ gem 'turbolinks'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-group :development do
-  gem 'mysql2'
-end
+gem 'pg'
 
-group :production do
-  gem 'pg'
-end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -38,8 +33,8 @@ gem 'jquery-rails-cdn'
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
 
-# Use unicorn as the app server
-# gem 'unicorn'
+# Use thin as the app server
+gem 'thin'
 
 # Deploy with Capistrano
 # gem 'capistrano'
