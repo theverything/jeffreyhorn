@@ -37,7 +37,8 @@ gem 'jquery-rails-cdn'
 gem 'thin'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
+gem 'rvm-capistrano'
 
 # To use debugger
 # gem 'debugger'
