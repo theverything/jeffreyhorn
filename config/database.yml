@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: quotes_production
   pool: 5
-  username: 
+  username: jeff
   password:
