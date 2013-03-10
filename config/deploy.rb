@@ -12,7 +12,7 @@ set :scm, :git
 set :deploy_to, "/home/jeff/www"
 
 set :user, "jeff"
-set :use_sudo, false
+set :use_sudo, true
 
 server "jeffreyhorn.com", :app, :web, :db, :primary => true
 
