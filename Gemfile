@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 ruby '1.9.3'
-gem 'rails', '3.2.12'
+gem 'rails', '3.2.13'
 gem 'turbolinks'
 
 # Bundle edge Rails instead:
@@ -35,10 +35,6 @@ gem 'jquery-rails-cdn'
 
 # Use thin as the app server
 gem 'thin'
-
-# Deploy with Capistrano
-gem 'capistrano'
-gem 'rvm-capistrano'
 
 # To use debugger
 # gem 'debugger'
