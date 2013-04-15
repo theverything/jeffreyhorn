@@ -7,7 +7,6 @@ gem 'pg'
 gem 'thin'
 gem 'jquery-rails'
 gem 'jquery-rails-cdn'
-gem 'markdown-rails'
 gem 'redcarpet'
 
 
