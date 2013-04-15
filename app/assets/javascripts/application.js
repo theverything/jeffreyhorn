@@ -14,3 +14,5 @@
 //= require foundation
 //= require_tree .
 //= require turbolinks
+
+$(document).foundation();

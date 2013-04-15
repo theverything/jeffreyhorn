@@ -4,35 +4,33 @@
 <!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]>    <html class="ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8" />
-	
-	<!-- Uncomment to make IE8 render like IE7 -->
-	<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
-	
-	<!-- Set the viewport width to device width for mobile -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<title>Jeffrey Horn | Aspiring Web Developer</title>
-  
-	<!-- Included CSS Files -->
-	<%= stylesheet_link_tag    "application" %>
-	
-	<!-- Included JS Files  -->
-	<%= jquery_include_tag :google%>
-	<%= javascript_include_tag "application" %>
-  
-  <%= csrf_meta_tags %>
-</head>
-<body>
-  <%= yield %>
+  <head>
+  	<meta charset="utf-8" />
 
-  <script>
-	  var _gaq=[['_setAccount','UA-23995184-1'],['_trackPageview']];
-	  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-	  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-	  s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
+  	<!-- Uncomment to make IE8 render like IE7 -->
+  	<!-- <meta http-equiv="X-UA-Compatible" content="IE=7" /> -->
 
-</body>
+  	<!-- Set the viewport width to device width for mobile -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  	<title>Jeffrey Horn | Aspiring Web Developer</title>
+
+  	<%= stylesheet_link_tag    "application" %>
+  	<%= javascript_include_tag "vendor/custom.modernizr" %>
+    <%= csrf_meta_tags %>
+    <%= jquery_include_tag :google%>
+    <%= javascript_include_tag "application" %>
+  </head>
+
+  <body>
+
+    <%= yield %>
+
+    <script>
+		  var _gaq=[['_setAccount','UA-23995184-1'],['_trackPageview']];
+		  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+		  s.parentNode.insertBefore(g,s)}(document,'script'));
+  	</script>
+  </body>
 </html>
