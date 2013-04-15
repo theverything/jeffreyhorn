@@ -1,6 +1,11 @@
 <%= provide(:title, 'Resume') %>
 
 <div class="row">
+  <div class="small-10 large-12 small-centered columns">
+    <a id="github-link" href="https://github.com/theverything/Jeffrey_Horn_Resume/blob/master/markdowm_resume.md">Download my resume from github <%= image_tag "github-icon.png", alt: "github icon", id: "github-icon" %></a>
+  </div>
+</div>
+<div class="row">
   <div id="resume" class="small-10 large-12 small-centered columns">
     <%= @markdown.html_safe %>
   </div>
