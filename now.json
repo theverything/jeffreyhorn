@@ -5,6 +5,5 @@
       "src": "index.html",
       "use": "@now/static"
     }
-  ],
-  "alias": "www.jeffreyhorn.com"
+  ]
 }
