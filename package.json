@@ -1,0 +1,24 @@
+{
+  "name": "jeffreyhorn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theverything/jeffreyhorn.git"
+  },
+  "author": "Jeffrey Horn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theverything/jeffreyhorn/issues"
+  },
+  "homepage": "https://github.com/theverything/jeffreyhorn#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.0"
+  }
+}
