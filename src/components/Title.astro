@@ -1,0 +1,16 @@
+---
+export interface Props {
+	value: string;
+}
+
+const { value } = Astro.props;
+---
+
+<h1>{value}</h1>
+
+<style>
+	h1 {
+		color: #99c794;
+		text-align: center;
+	}
+</style>
