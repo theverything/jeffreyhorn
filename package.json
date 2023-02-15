@@ -1,13 +1,7 @@
 {
   "name": "jeffreyhorn",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "eleventy --serve",
-    "build": "eleventy"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/theverything/jeffreyhorn.git"
@@ -18,7 +12,18 @@
     "url": "https://github.com/theverything/jeffreyhorn/issues"
   },
   "homepage": "https://github.com/theverything/jeffreyhorn#readme",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^2.0.11"
+  },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.0"
+    "prettier": "^2.8.4",
+    "prettier-plugin-astro": "^0.8.0"
   }
 }
